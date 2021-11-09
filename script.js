@@ -1,5 +1,12 @@
-let sayHello = (firstname, myage) => {
-    if(firstname == '' && myage=='')
-    return
-    console.log(`${firstname} is ${myage} years old`);
+let Load = () => {
+    document.images['img'].src = 'images/1.jpg'
 }
+
+let onmouseOver = () => {
+    document.images['img'].src = 'images/2.jpg'
+}
+
+let onmouseOut = () => {
+    document.images['img'].src = 'images/1.jpg'
+}
+
