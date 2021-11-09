@@ -1,12 +1,17 @@
-let Load = () => {
-    document.images['img'].src = 'images/1.jpg'
+var imageArray = ["images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg"];
+var i = 1;
+var ref;
+
+function imageGallery() {
+    document.images[0].src = imageArray[i];
+    i++;
+    if (i < 4)
+        i = 0;
 }
 
-let onmouseOver = () => {
-    document.images['img'].src = 'images/2.jpg'
+function start () {
+    ref = setInterval('imageGallery()', 1000);
 }
-
-let onmouseOut = () => {
-    document.images['img'].src = 'images/1.jpg'
+function stop() {
+    clearInterval(ref);
 }
-
