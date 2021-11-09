@@ -1,1 +1,3 @@
-// JavaScript/ES6
+let sayHello = (firstname, myage) => {
+    console.log(`${firstname} is ${myage} years old`);
+}
