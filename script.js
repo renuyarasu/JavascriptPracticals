@@ -1,12 +1,6 @@
 console.clear();
 
-const display = () => {
-    var a = b = 10
-}
-display()
+const days = ['Monday', 'Tuesday'];
+days.length = 0
 
-console.log(typeof (a));
-console.log(typeof (b));
-
-console.log(typeof a === 'undefined');
-console.log(typeof b === 'undefined');
+console.log(days); // []
