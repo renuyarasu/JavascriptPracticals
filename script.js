@@ -1,3 +1,4 @@
-let x = {} + {};
+let x = String({})
 
-console.log(typeof (x)); // string
+console.log(x); // [object Object]
+console.log(typeof (x)); // number
