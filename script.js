@@ -1,11 +1,12 @@
-// Variable Hoisting
-
-var number = 10;
+console.clear();
 
 const display = () => {
-    console.log(number);
-    var number = 10;
+    var a = b = 10
 }
-display(); // undefined
+display()
 
-// Variable hoisting means the JavaScript engine moves the variable declarations to the top of the script
+console.log(typeof (a));
+console.log(typeof (b));
+
+console.log(typeof a === 'undefined');
+console.log(typeof b === 'undefined');
