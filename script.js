@@ -1,6 +1,10 @@
 console.clear();
+// Eagle Eye Problem in JavaScript 
+ 
+const length = 4;
+const numbers = [];
 
-const days = ['Monday', 'Tuesday'];
-days.length = 0
-
-console.log(days); // []
+for (var i = 0; i < length; i++) {
+    numbers.push(i + 1)
+}
+console.log(numbers);
