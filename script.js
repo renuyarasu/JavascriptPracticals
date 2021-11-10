@@ -1,4 +1,4 @@
-let x = null + null;
+let x = undefined + undefined;
 
-console.log(x); // 0
+console.log(x); // NaN
 console.log(typeof (x)); // number
