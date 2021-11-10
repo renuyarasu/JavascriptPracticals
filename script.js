@@ -1,6 +1,17 @@
-console.clear();
-// Eagle Eye Problem in JavaScript 
+// Link: https://dmitripavlutin.com/simple-but-tricky-javascript-interview-questions/
 
-name;
-var name = 'VedaGna';
-console.log(name);
+console.clear();
+
+const length = 4;
+const numbers = [];
+var i;
+for (i = 0; i < length; i++) {
+    // does nothing
+}
+{
+    // a simple block
+    numbers.push(i + 1);
+}
+
+console.log(numbers); // [5]
+

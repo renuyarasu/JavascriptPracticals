@@ -1,1 +1,2 @@
-undefined + undefined
+
+    numbers.push(i + 1);
