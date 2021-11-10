@@ -1,4 +1,3 @@
-let x = NaN + NaN;
+let x = {} + {};
 
-console.log(x); // NaN
-console.log(typeof (x)); // number
+console.log(typeof (x)); // string
